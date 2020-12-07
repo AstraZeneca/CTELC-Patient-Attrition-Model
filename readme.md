@@ -54,7 +54,8 @@ Folder Contents
 ----------------
 This folder contains the data files that was used in the analysis. The file descriptions are listed below:
 
-|---- readme.txt :  readme file for the data folder
+```
+|---- readme.md :  readme file for the data folder
 |
 |---- code : This folder contains the code required for the preprocessing of raw data and running the predictive model results,
 |			 further explaination is available in a readme file within this folder
@@ -75,6 +76,7 @@ This folder contains the data files that was used in the analysis. The file desc
 |
 |---- Traveling_Endnote_Library.enl : This file contains endnote references to publications and articles saved in a endnote format.
 |---- Traveling_Endnote_Library.txt : This file contains endnote references to publications and articles saved in txt format.
+```
 
 Add lines on installation
 
