@@ -1,0 +1,9 @@
+SuperLearner==2.0-26
+MASS==7.3-51.5
+ranger==0.12.1
+ipred==0.9-9
+kernlab==0.9-29
+arm==1.10-1
+dplyr==1.4.2
+caret==6.0-84
+parallel==3.5.2
