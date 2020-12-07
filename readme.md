@@ -1,3 +1,5 @@
+![Maturity level-0]
+
 Modeling Clinical Trial Patient Attrition Using Machine Learning: A case study using 1,325 Respiratory Trials.
 ---------------------------------------------------------------------------------------------------------------
 This file is the readme.txt file for the code folder that contains the R code that was used in the model
