@@ -66,8 +66,6 @@ This folder contains the data files that was used in the analysis. The file desc
 |		Using command "Install.Packages("package name") one can easily install the required packages
 ```
 
-Add lines on installation
-
 Contact
 --------
 shameer.khader@astrazeneca.com
