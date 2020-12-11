@@ -35,11 +35,6 @@ This folder contains the data files that were used in the analysis. The file des
     |
     |---- readme.txt:  readme file for the data folder
     |
-    |---- 1_Data_Cleaning_Code.R: This is the data preprocessing code which uses the raw data from "raw" folder that is present 
-    |                        in "data" folder and creates analysis ready data.  This file should be executed before the 
-    |                        "2_Model_Code.R" file. This file can be opened and executed in RStudio by setting the
-    |                        appropriate directory path to the "raw" folder of this package
-    |                       
     |
     |---- 2_Model_Code.R: This is the main modeling R code that is developed to perform the random forest predictive model. It uses the 	  
     |                        Indexed_Analysis_Ready.csv file from the data/raw folder for model  
