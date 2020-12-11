@@ -1,6 +1,6 @@
 ![Maturity level-0](https://img.shields.io/badge/Maturity%20Level-ML--0-red)
 
-Modeling Clinical Trial Patient Attrition Using Machine Learning: A case study using 1,325 Clinical Trials.
+Modeling Clinical Trial Attrition Using Machine Intelligence: A driver analytics case study using 1,325 trials representing one million patients 
 ---------------------------------------------------------------------------------------------------------------
 This file is the readme.txt file for the code folder that contains the R code that was used in the model
 
