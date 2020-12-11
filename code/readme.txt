@@ -42,7 +42,7 @@ This folder contains the data files that were used in the analysis. The file des
     |                        the in the RStudio by setting the appropriate working directory path to the 'raw' folder 
     |                        of this package
     |
-    |---- 2_Model_Code.ipynb: This file contains R code run on Ananconda instance/Jupyter notebook, this is similar to the code " 2_Model_Code.R"
+    |---- 2_Model_Code.ipynb: This file contains R code run on Anaconda instance/Jupyter notebook, this is similar to the code " 2_Model_Code.R"
 								the output of both codes will remain the same.
 
 
