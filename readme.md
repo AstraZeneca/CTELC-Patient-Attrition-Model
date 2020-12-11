@@ -60,15 +60,10 @@ This folder contains the data files that was used in the analysis. The file desc
 |			 further explaination is available in a readme file within this folder
 |
 |---- data:  This folder contains two sub-folders, another readme file in the folder will explain the overview on each folder content.
-		|---- raw
 		|---- analysis_ready
-
-|
 |---- requirments.txt : is a file which lists the libraries used in the model building exercise, this file can be used to install the packages needed.
 |		
 |		Using command "Install.Packages("package name") one can easily install the required packages
-|		
-|
 ```
 
 Add lines on installation
