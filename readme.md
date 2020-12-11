@@ -33,7 +33,7 @@ in a clinical trial either withdraw or are lost to follow-up by the clinical sit
 Requirements
 ------------
 This was performed using RStudio and R. The versions of RStudio and R are listed below:
-RStudio 1.0.44, which can be downloaded from from https://rstudio.com/products/rstudio/download/ 
+RStudio 1.0.44, which can be downloaded from https://rstudio.com/products/rstudio/download/ 
 R 3.5.2 (2018-12-20). RStudio can be installed from https://cran.r-project.org/mirrors.html
 
 The project requires the following R packages. The version numbers indicate the version of the packages 
@@ -57,8 +57,8 @@ This folder contains the data files that was used in the analysis. The file desc
 ```
 |---- readme.md :  readme file for the data folder
 |
-|---- code : This folder contains the code required for the preprocessing of raw data and running the predictive model results,
-|			 further explaination is available in a readme file within this folder
+|---- code : This folder contains the code required for the pre-processing of raw data and running the predictive model results,
+|			 further explanation is available in a readme file within this folder
 |
 |---- data:  This folder contains two sub-folders, another readme file in the folder will explain the overview on each folder content.
 		|---- analysis_ready
