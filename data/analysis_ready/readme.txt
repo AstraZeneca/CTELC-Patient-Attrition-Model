@@ -17,8 +17,7 @@ TABLE OF CONTENTS
 
 Full Author List
 ----------------
-Shameer Khader, Youyi Zhang, Imran Khan A.N, 
-Sreenath Nampally, Emmette Hutchison, Jim Weatherall, Faisal Khan.
+Emmette Hutchison, Youyi Zhang, Sreenath Nampally, Imran Khan Neelufer, Vlad Malkov, Jim Weatherall, Faisal Khan and Khader Shameer
 
 Introduction
 ------------
@@ -31,9 +30,7 @@ This folder contains the data files that were used in the analysis. The file des
 
 |--data
     |
-    |---- readme.txt:  readme file for the data folder
-    |
-    |---- raw: This folder contains the raw data that was compiled from extracting data                    
+    |---- readme.txt:  readme file for the data folder            
     |
     |---- analysis_ready: This folder contains the analysis_ready data that is used for the primary model. This
     |                     folder contains below files:-
