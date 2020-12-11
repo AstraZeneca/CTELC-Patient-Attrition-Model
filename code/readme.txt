@@ -18,8 +18,7 @@ TABLE OF CONTENTS
 
 Full Author List
 ----------------
-Shameer Khader, Youyi Zhang, Imran Khan A.N, 
-Sreenath Nampally, Emmette Hutchison, Jim Weatherall, Faisal Khan.
+Emmette Hutchison, Youyi Zhang, Sreenath Nampally, Imran Khan Neelufer, Vlad Malkov, Jim Weatherall, Faisal Khan and Khader Shameer
 
 
 Introduction
