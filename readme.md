@@ -20,8 +20,7 @@ TABLE OF CONTENTS
 
 Full Author List
 ----------------
-Shameer Khader, Youyi Zhang, Imran Khan A.N, 
-Sreenath Nampally, Emmette Hutchison, Jim Weatherall, Faisal Khan.
+Emmette Hutchison, Youyi Zhang, Sreenath Nampally, Imran Khan Neelufer, Vlad Malkov, Jim Weatherall, Faisal Khan and Khader Shameer 
 
 
 Introduction
@@ -63,19 +62,13 @@ This folder contains the data files that was used in the analysis. The file desc
 |---- data:  This folder contains two sub-folders, another readme file in the folder will explain the overview on each folder content.
 		|---- raw
 		|---- analysis_ready
-|
-|---- Attrition Manuscript Figures.pdf : Manuscript supporting document which includes charts and graphs, in pdf file format.
-|---- Attrition Manuscript Figures.pptx : Manuscript supporting document which includes charts and graphs, in pptx file format.
-|
-|---- CTLEC_npjDigitalMedicine_Manuscript.docx : Manuscript for the model
+
 |
 |---- requirments.txt : is a file which lists the libraries used in the model building exercise, this file can be used to install the packages needed.
 |		
 |		Using command "Install.Packages("package name") one can easily install the required packages
 |		
 |
-|---- Traveling_Endnote_Library.enl : This file contains endnote references to publications and articles saved in a endnote format.
-|---- Traveling_Endnote_Library.txt : This file contains endnote references to publications and articles saved in txt format.
 ```
 
 Add lines on installation
