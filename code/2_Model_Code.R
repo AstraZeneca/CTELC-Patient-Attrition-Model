@@ -19,8 +19,6 @@
 # This code splits the data into training and testing, multiple machine learning 
 # models were trained to predict patient attrition
 
-# Load the relevant libraries 
-
 library("SuperLearner")
 library("MASS")
 library("ranger")
@@ -32,15 +30,14 @@ library("caret")
 library("glmnet")
 library("parallel")
 library("randomForest")
+library("party")
 
-# Set the data directories
-setwd("C:/Users/kmtg255/Desktop/Patient Attrition/Data/analysis_ready/")
+# Set the data directories to the place where analysis ready data is stored
 
-ds1 <- read.csv("Indexed_Analysis_Ready.csv")
+ds1 <- read.csv("./Indexed_Analysis_Ready.csv")
 
 # training set by nct_id
 ds2 <- unique(ds1[,c("nct_id","Disease")])
-
 #Split training and testing into 80:20 split
 set.seed(234)
 NCTIndex <-createDataPartition(ds2$Disease, p = .8,  list = F, times = 1)
@@ -79,11 +76,10 @@ y.train <- superlearner_train$dwp_all
 x.test <- subset(superlearner_test, select = -dwp_all)
 y.test <- superlearner_test$dwp_all
 
-#install.packages("party")
-library(party)
+
 cf1 <- cforest(y.train ~ . , data= x.train, control=cforest_unbiased(mtry=2,ntree=50))
 
-varimp(cf1) # get variable importance, based on mean decrease in accuracy
+test <- varimp(cf1) # get variable importance, based on mean decrease in accuracy
 
 # List Wrapper algorithms available in SuperLearner
 listWrappers()
@@ -150,7 +146,6 @@ system.time({
                                                verbose = TRUE, method = "method.NNLS", cvControl = list(V = 3, shuffle = FALSE),
                                                innerCvControl = list(list(V = 5)))
 })
-
 
 # Get summary statistics
 summary(cv.model.tune.8predictors)
